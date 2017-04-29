@@ -1,11 +1,15 @@
-find = raw_input("Did you find everything ok? ")
-name = raw_input("What's your name? ")
-total = raw_input("What is your total before tax? ")
-total_int = int(total)
+to_do_list = ['Make the bed', 'Cook dinner', 'Feed the dog', 'Buy groceries']
+to_do_list.append('buy potatoes')
+to_do_list.append('clean car')
+print to_do_list
 
-report = "Your total with sales tax is: " + total
+# prints the first chore on the list
+print to_do_list[0]
 
-type(find)
-type(name)
-type(total)
-type(report)
+# prints the third chore on the list
+print to_do_list[2]
+
+print len(to_do_list)
+
+# prints the last chore on the list
+print to_do_list[len(to_do_list) - 1]
