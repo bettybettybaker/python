@@ -1,9 +1,15 @@
-x = 5
-if x < 0:
-    print "x is negative"
-elif x == 5:
-    print "x is 5!"
-elif x > 0:
-    print "x is positive"
+print "It's your birthday!"
+answer = raw_input("How old are you? ")
+age = int(answer)
+if answer < 21:
+    print "You may not have a beer, but here's some juice!"
 else:
-    print "x is 0"
+    beers = raw_input("How many beers do you want? ")
+    beers = int(beers)
+    if beers > 3:
+        print "Oops, you're drunk!"
+    elif beers > 1:
+        print "You got a little tipsy"
+    else:
+        print "Looks like you're the designated driver"
+print "Happy Birthday!"
