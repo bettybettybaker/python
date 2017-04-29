@@ -1,7 +1,11 @@
-name = raw_input("What is your name? ")
-age = raw_input("How old are you? ")
-age_int = int(age)
-print "Your name is " + name + " and you are " + age + " years old."
+find = raw_input("Did you find everything ok? ")
+name = raw_input("What's your name? ")
+total = raw_input("What is your total before tax? ")
+total_int = int(total)
 
-type(age)
-type(age_int)
+report = "Your total with sales tax is: " + total
+
+type(find)
+type(name)
+type(total)
+type(report)
